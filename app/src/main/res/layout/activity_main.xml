@@ -10,8 +10,8 @@
         android:id="@+id/txtx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
         android:text="valor x:"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,8 +21,8 @@
         android:id="@+id/txty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="108dp"
         android:text="valor y:"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,11 +32,22 @@
         android:id="@+id/txtz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginBottom="312dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="508dp"
         android:text="valor z:"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/bola"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:src="@drawable/bola"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
